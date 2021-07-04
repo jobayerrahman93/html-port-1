@@ -1,0 +1,174 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.welcome
+{
+    background: url('images/top-banner.png');
+    display: flex;
+   background-repeat: no-repeat;
+   width: 100%;
+   margin-bottom: 200px;
+}
+
+.left
+{
+    width: 50%;
+    padding: 30px 90px;
+
+}
+
+.left h1
+{
+    font-weight: 700;
+    font-size: 55px;;
+}
+.left h1 span
+{
+    color: orange;
+}
+
+ p
+{
+    color: gray;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+ a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+
+
+button
+{
+    padding: 15px 25px;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    font-weight: 700;
+    border-radius: 5px;  
+}
+
+button:hover
+{
+    background:tomato;
+}
+
+.right
+{
+    width: 50%;
+}
+.right img
+{
+    margin-left: 30px;
+    background-repeat: no-repeat;
+    height: 482px;
+}
+
+
+/* Dream Section */
+
+.dream
+{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+    background: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.left-dream
+{
+    width: 50%;
+    padding-left: 150px;
+
+}
+
+.right-dream
+{
+    width: 50%;
+   padding-right: 90px;
+}
+
+.right-dream h1
+{
+    font-size: 40px;
+}
+
+
+
+/* experience section */
+.exp{
+    height: 500px;
+    width: 100%;
+    background: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 300px;
+    
+}
+
+
+.exp h1
+{
+    font-size: 40px;
+}
+
+.exp-area h3
+{
+    color: orange;
+}
+
+.exp-area 
+{
+    padding:40px 90px;
+    
+ 
+}
+.exp-area p{
+    color: dimgray;
+}
+
+.exp-area .half-left
+{
+ width: 42%;
+ float: left;
+ height: 400px;
+ padding: 0 30px;
+ box-shadow: 5px 7px 40px gray;
+ border-left: 7px solid;
+border-image: linear-gradient(180deg, lightsalmon, tomato);
+border-image-slice: 1;
+margin-right:10px;
+
+}
+.exp-area .half-right
+{
+ width: 42%;
+ height: 400px;
+ float: right;
+ padding: 0 30px;
+ box-shadow: 5px 7px 40px gray;
+ border-left: 7px solid;
+ border-image: linear-gradient(180deg, blue, cyan);
+ border-image-slice: 1;
+ margin-left:10px;
+
+}
+
+footer
+{
+   
+    text-align: center;
+}
